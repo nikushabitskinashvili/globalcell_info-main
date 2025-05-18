@@ -1,0 +1,37 @@
+.mainWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  background-image: url("/endlines.png");
+  background-repeat: no-repeat;
+  background-position: right center; 
+  background-size: contain;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin-top: 100px;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  color: #022466;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 32px;
+  width: 100%;
+  max-width: 976px;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}

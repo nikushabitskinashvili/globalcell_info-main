@@ -1,0 +1,79 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.title {
+  color: #1d6ada;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 4%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.container {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 1129px;
+}
+
+.headline {
+  color: #022466;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 4%;
+}
+
+.description {
+  color: #022466;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 4%;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.headline {
+  color: #022466;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+
+.text {
+  color: #1d6ada;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contactInfo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}

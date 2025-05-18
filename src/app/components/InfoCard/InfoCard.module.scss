@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  width: 100%;
+  padding: 32px;
+  background-color: #f5f7f9;
+  border-radius: 20px;
+  gap: 40px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title {
+  color: #1d6ada;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.subtitle {
+  color: #000d26;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.description {
+  color: #a8a8a8;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}

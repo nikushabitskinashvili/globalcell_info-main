@@ -1,0 +1,25 @@
+{
+  "name": "globalcell-info",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.3.1",
+    "next-intl": "^4.0.3",
+    "react": "^19.0.0",
+    "react-circle-flags": "^0.0.23",
+    "react-dom": "^19.0.0",
+    "sass": "^1.89.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}

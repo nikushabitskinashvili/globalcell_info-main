@@ -1,0 +1,138 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  width: 100%;
+  background-color: #1d6ada;
+  padding: 32px;
+  margin-top: 128px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.infoText {
+  color: #fefefe;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 4%;
+  vertical-align: middle;
+}
+
+.number {
+  color: #fefefe;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 4%;
+  vertical-align: middle;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.map {
+  width: 100%;
+  max-width: 266px;
+  max-height: 294px;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.licenseText {
+  color: #fefefe;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.license {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containerWrapper {
+  display: flex;
+  gap: 264px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 2280px;
+  align-items: flex-start;
+
+}
+
+.navWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 658px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.navHeadline {
+  color: #fefefe;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 4%;
+  vertical-align: middle;
+}
+
+.navInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.navInfoText {
+  color: #fefefe;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+@media (max-width: 1280px) and (min-width: 744px) {
+  .containerWrapper {
+    gap: 64px;
+    display: flex;
+    flex-direction: column;
+  }
+}

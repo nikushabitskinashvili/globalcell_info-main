@@ -1,0 +1,21 @@
+name: Node.js CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: globalcell-info
+    steps:
+    - uses: actions/checkout@v4
+    - run: npm update
+    - run: npm run build
+    - name: Remove Build
+      run: sudo rm -f -r /var/www/globalcell.info/*
+    - name: Copy Build
+      run: sudo cp -R ./dist/* /var/www/globalcell.info/
+    - name: Remove Node
+      run: sudo rm -f -r ./node_modules/*

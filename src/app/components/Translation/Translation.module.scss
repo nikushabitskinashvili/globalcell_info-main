@@ -1,0 +1,32 @@
+.wrapper {
+    width: 65px;
+    height: 32px;
+    border-radius: 50px;
+    background-color: #ebf0f6;
+    box-shadow: inset 0px 6px 8px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    user-select: none;
+    margin-left: 20px;
+  }
+  
+  .flag {
+    width: 20px !important;
+    height: 20px !important;
+    opacity: 0.2;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: all 0.2s ease;
+  }
+  
+  .selected {
+    width: 23px !important;
+    height: 23px !important;
+    opacity: 1 !important;
+    filter: drop-shadow(2px 1px 6px rgba(0, 0, 0, 0.25));
+    border: 1px solid rgb(235, 240, 246);
+    border-radius: 100px;
+  }
+  

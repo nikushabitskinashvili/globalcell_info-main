@@ -1,0 +1,48 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .container {
+    background-color: #DBFAE0;
+    padding: 24px 32px 24px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    width: 100%;
+  }
+  
+  .title {
+    color: #001F05;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 512px;
+  }
+  
+  .description {
+    color: #022466;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 4%;
+  }
+  
+  .see {
+    color: #009218;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 4%;
+  }
+  
+  .seeMore {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      justify-content: flex-end;
+  }

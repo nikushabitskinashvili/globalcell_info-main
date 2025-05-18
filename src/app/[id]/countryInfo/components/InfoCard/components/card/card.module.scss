@@ -1,0 +1,75 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  background: #f7f9fb;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.image {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title {
+  color: var(--Text-Text-Brand, #1d6ada);
+  font-family: var(--FontFamily-Title, Poppins);
+  font-size: var(--header-xl-sub-med, 32px);
+  font-style: normal;
+  font-weight: var(--Fontweight-SemiBold, 600);
+  line-height: normal;
+}
+
+.txt {
+  color: var(--Text-Text-Secondary, #000d26);
+  font-family: var(--FontFamily-Body, Poppins);
+  font-size: var(--Body2-REG, 16px);
+  font-style: normal;
+  font-weight: var(--Fontweight-Regular, 400);
+  line-height: normal;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.listContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  color: var(--Text-Text-Brand, #1d6ada);
+  font-family: var(--FontFamily-Title, Poppins);
+  font-size: var(--HeaderS-MED, 16px);
+  font-style: normal;
+  font-weight: var(--Fontweight-SemiBold, 600);
+  line-height: normal;
+}
+
+.highlight {
+  color: var(--Text-Text-Brand, #1d6ada);
+  font-family: var(--FontFamily-Title, Poppins);
+  font-size: var(--Display-SB, 64px);
+  font-style: normal;
+  font-weight: var(--Fontweight-SemiBold, 600);
+  line-height: normal;
+}

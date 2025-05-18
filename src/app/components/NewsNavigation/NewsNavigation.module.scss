@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 64px;
+  background-color: #d5e6ff;
+  padding: 4px 8px;
+  border-radius: 9px;
+  justify-content: space-between;
+  z-index: 1000;
+
+}
+
+.country {
+  border-right: 1px solid #ebf0f6;
+  padding: 12px 0;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 4%;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.active {
+  background-color: #fff;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.12),
+    0px 3px 1px 0px rgba(0, 0, 0, 0.04);
+  border: 0.5px solid #0000000a;
+  border-radius: 6.93px;
+}
+
+.uk {
+
+    padding: 12px 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    width: 100%;
+    max-width: 173px;
+    text-align: center;
+    vertical-align: middle;
+}

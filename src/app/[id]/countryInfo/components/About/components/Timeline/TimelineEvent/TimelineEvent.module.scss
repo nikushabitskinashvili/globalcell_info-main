@@ -1,0 +1,37 @@
+.timeline__description {
+  border-radius: 12px;
+  background: var(--Color-Brand-group-Light-Blue-for-fill, #ebf0f6);
+  color: #1f2d3d;
+  padding: 12px 16px;
+  font-size: 14px;
+  max-width: 247px;
+  width: 100%;
+}
+
+.timeline__year {
+  border-radius: 12px;
+  background: var(--Color-Brand-group-Primary, #1d6ada);
+  padding: 4px 20px;
+  max-width: 88px;
+  width: 100%;
+  color: var(--color-background-white-white, #fefefe);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+
+.timeline__dot {
+  position: absolute;
+  top: -38px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 12px solid #1e6ee6;
+}
+
+.timeline__event{
+    position: relative;
+}

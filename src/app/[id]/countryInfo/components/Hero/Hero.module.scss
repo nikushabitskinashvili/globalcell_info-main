@@ -1,0 +1,126 @@
+.heroSection {
+  width: 100%;
+  background-image: url("/countrybg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.heroContainer {
+  padding: 212px 40px 168px 39px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.heroInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.heroTitle {
+  color: #002253;
+  font-size: 45px;
+  font-weight: 600;
+  width: 648px;
+}
+
+.heroDescription {
+  color: #002253;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+
+.tabletImage {
+  display: none;
+}
+
+.countryName {
+  color: #1d6ada;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.button {
+  width: 100%;
+  max-width: 343px;
+  padding: 10px 24px;
+  border-radius: 18px;
+  border: 1px solid #1d6ada;
+  background-color: #1d6ada;
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.heroTitleImageWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media (min-width: 744px) and (max-width: 1280px) {
+  .heroContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .heroInfoWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .tabletImage {
+    display: block;
+  }
+
+  .heroTitle {
+    max-width: 407px;
+    width: 100%;
+    font-weight: 500;
+  }
+
+  .heroDescription {
+    font-weight: 400;
+    max-width: 719px;
+    width: 100%;
+  }
+
+  .button {
+    max-width: 312px;
+  }
+}
+
+@media (max-width: 744px) {
+  .heroInfoWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .tabletImage {
+    order: -1;
+  }
+
+  .heroTitle {
+    width: 345px;
+    font-size: 20px;
+    text-align: center;
+  }
+}

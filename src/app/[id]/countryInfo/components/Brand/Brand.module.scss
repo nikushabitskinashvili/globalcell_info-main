@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  display: flex;
+  gap: 51px;
+  justify-content: space-between;
+  max-width: 1172px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+  max-width: 758px;
+}
+
+.title {
+  color: #022466;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.text {
+  color: #002253;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.72px;
+}
