@@ -23,10 +23,38 @@
 }
 
 .description {
-    color: #002253;
-    font-size: 18px;    
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 0.72px;
+  color: #002253;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.72px;
+}
+
+
+@media(min-width: 744px) and (max-width: 1280px) {
+  .description{
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 696px;
+    width: 100%;
+  }
+}
+
+@media( max-width: 744px){
+  .title{
+    font-size: 20px;
+  }
+
+  .description{
+    max-width: 345px;
+    width: 100%;
+  }
+
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
 }

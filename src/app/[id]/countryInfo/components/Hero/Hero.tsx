@@ -6,6 +6,13 @@ const Hero = () => {
       <div className={styles.heroContainer}>
         <div className={styles.heroInfo}>
           <div className={styles.heroInfoWrapper}>
+          <Image
+              src="/country.png"
+              alt="country"
+              width={314}
+              height={219}
+              className={styles.mobileImage}
+            /> 
             <span className={styles.heroTitle}>
               eSIM for <span className={styles.countryName}>Georgia</span> Stay
               Connected Instantly

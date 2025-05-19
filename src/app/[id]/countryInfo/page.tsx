@@ -1,17 +1,23 @@
-import Image from "next/image";
 import styles from "./page.module.scss";
 import NewsNavigation from "../../components/NewsNavigation/NewsNavigation";
 import About from "./components/About/About";
 import Brand from "./components/Brand/Brand";
 import InfoCard from "./components/InfoCard/InfoCard";
 import Hero from "./components/Hero/Hero";
+import AntSelect from "./components/Select/Select";
 
 const CountryInfo = () => {
   return (
     <div className={styles.wrapper}>
-     <Hero/>
+      <Hero />
       <div className={styles.newsNavigation}>
+
         <NewsNavigation />
+
+        <div className={styles.select}>
+          <AntSelect />
+        </div>
+
         <div className={styles.about}>
           <About />
         </div>
@@ -19,7 +25,7 @@ const CountryInfo = () => {
           <Brand />
         </div>
         <div className={styles.InfoContainer}>
-          <InfoCard/>
+          <InfoCard />
         </div>
       </div>
     </div>

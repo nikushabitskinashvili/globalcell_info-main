@@ -25,3 +25,30 @@
   flex-direction: column;
   gap: 128px;
 }
+
+.select {
+  display: none;
+}
+
+@media (min-width: 744px) and (max-width: 1280px) {
+  .select {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+
+  }
+}
+
+@media (max-width: 744px) {
+  .select {
+    display: block;
+    max-width: 345px;
+    width: 100%;
+  }
+
+  .newsNavigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

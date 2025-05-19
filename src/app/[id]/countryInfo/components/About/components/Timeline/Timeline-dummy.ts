@@ -1,5 +1,4 @@
-import { TimelineItem } from "./interfaces/Timeline.interface";
-
+import { TimelineItem } from './interfaces/Timeline.interface';
 
 export const timelineData: TimelineItem[] = [
   {
