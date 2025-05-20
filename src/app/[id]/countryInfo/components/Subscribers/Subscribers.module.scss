@@ -1,0 +1,193 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.container {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f5f7f9;
+}
+
+.title {
+  color: #022466;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  padding: 12px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  max-width: 623px;
+}
+
+.infoHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.infoTitle {
+  color: #1d6ada;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.infoDescription {
+  color: #000d26;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.infoMain {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoMainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.infoMainText {
+  color: #1d6ada;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.infoMainList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.infoMainListItemContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.infoMainListItem {
+  color: #000d26;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footerText {
+  color: #1d6ada;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.infoMainNumber {
+  color: #1d6ada;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.title {
+  color: #022466;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media (max-width: 1280px) and (min-width: 744px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .image {
+    width: 517px;
+    height: 340px;
+  }
+}
+
+@media (max-width: 744px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .image {
+    width: 321px;
+    height: 211px;
+  }
+
+  .infoTitle {
+    color: #1d6ada;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.8px;
+  }
+
+  .infoDescription {
+    color: #000d26;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .infoMainText {
+    color: #1d6ada;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .infoMainListItem {
+    color: #000d26;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .footerText {
+    color: #1d6ada;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .infoMain {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}

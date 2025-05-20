@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./About.module.scss";
 import Timeline from "./components/Timeline/Timeline";
+import TabletTimeline from "./components/TabletTimeline/TabletTimeline";
+import MobileTimeline from "./components/MobileTimeline/MobileTimeline";
 
 const About = () => {
   return (
@@ -21,7 +23,16 @@ const About = () => {
         with about 20 other products of GlobalCell.
       </span>
       <div className={styles.timeline}>
-        <Timeline/>
+        <div className={styles.desktopTimeline}>
+          <Timeline></Timeline>
+        </div>
+        <div className={styles.tabletTimeline}>
+          <TabletTimeline></TabletTimeline>
+        </div>
+
+        <div className={styles.mobileTimeline}>
+          <MobileTimeline></MobileTimeline>
+        </div>
       </div>
     </div>
   );

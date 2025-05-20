@@ -1,0 +1,40 @@
+.item {
+  display: flex;
+  align-items: center;
+  max-width: 344px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.year {
+  border-radius: 12px;
+  background: var(--Color-Brand-group-Primary, #1d6ada);
+  max-width: 89px;
+  width: 100%;
+  padding: 4px 20px;
+  color: var(--color-background-white-white, #fefefe);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+
+.description {
+  color: var(--Color-Brand-group-Blue-for-texts, #002253);
+  font-size: var(--Input2-REG, 12px);
+  font-style: normal;
+  font-weight: var(--Fontweight-Regular, 400);
+  line-height: normal;
+  border-radius: 12px;
+  background: var(--Color-Brand-group-Light-Blue-for-fill, #ebf0f6);
+  padding: 12px;
+  max-width: 203px;
+  width: 100%;
+}
+
+.yearWrapper{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

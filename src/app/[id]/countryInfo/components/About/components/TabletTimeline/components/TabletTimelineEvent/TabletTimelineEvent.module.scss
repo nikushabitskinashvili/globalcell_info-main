@@ -1,0 +1,43 @@
+.event {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+}
+
+.descriptionWrapper {
+  position: absolute;
+  max-width: 207px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--Color-Brand-group-Light-Blue-for-fill, #ebf0f6);
+  color: #1f2d3d;
+  font-size: 14px;
+}
+
+.left {
+  left: 15px;
+  top: -20px;
+}
+
+.right {
+  right: 15px;
+  top: -16px;
+}
+
+.circleWrapper {
+  position: relative;
+}
+
+.circle {
+  border-radius: 12px;
+  background: var(--Color-Brand-group-Primary, #1d6ada);
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 4px 20px;
+  max-width: 89px;
+  width: 100%;
+}

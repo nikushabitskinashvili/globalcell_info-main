@@ -5,14 +5,6 @@
 
 }
 
-// .timeline {
-//   width: 100%;
-//   height: 300px;
-//   background-image: url("/geotimeline.png");
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   background-size: 100% 270px;
-// }
 
 .title {
   color: #022466;
@@ -31,6 +23,14 @@
   letter-spacing: 0.72px;
 }
 
+.tabletTimeline{
+  display: none;
+}
+
+.mobileTimeline{
+  display: none;
+}
+
 
 @media(min-width: 744px) and (max-width: 1280px) {
   .description{
@@ -39,6 +39,15 @@
     max-width: 696px;
     width: 100%;
   }
+
+  .desktopTimeline{
+    display: none;
+  }
+
+  .tabletTimeline{
+    display: block;
+  }
+
 }
 
 @media( max-width: 744px){
@@ -56,5 +65,15 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+  }
+
+  .mobileTimeline{
+    display: block;
+  }
+
+  
+
+  .desktopTimeline{
+    display: none;
   }
 }
