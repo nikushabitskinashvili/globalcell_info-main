@@ -30,3 +30,31 @@
   line-height: 30px;
   letter-spacing: 0.72px;
 }
+
+.titleMobile {
+  display: none;
+}
+
+@media screen and (max-width: 744px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .title {
+    display: none;
+  }
+  .info {
+    max-width: 100%;
+  }
+
+  .titleMobile {
+    display: block;
+    text-align: start;
+    padding-bottom: 16px;
+    color: #022466;
+    font-size: 24px;
+    font-weight: 500;
+  }
+}

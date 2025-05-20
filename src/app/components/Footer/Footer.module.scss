@@ -136,3 +136,9 @@
     flex-direction: column;
   }
 }
+
+@media(max-width: 744px){
+  .wrapper{
+    display: none;
+  }
+}
